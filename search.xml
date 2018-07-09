@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Vue+Element喉管管理系统基本配置]]></title>
+    <title><![CDATA[Vue+Element后台管理系统基本配置]]></title>
     <url>%2FmyBlog%2F2018%2F07%2F09%2FVue-Element%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%2F</url>
     <content type="text"></content>
+      <categories>
+        <category>技术文章</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
