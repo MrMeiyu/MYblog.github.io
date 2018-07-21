@@ -1835,7 +1835,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff9a06;
+  background: #ffff16;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2508,14 +2508,6 @@ pre .javascript .function {
 }
 .algolia-pagination .disabled-item {
   visibility: hidden;
-}
-.gt-header a,
-.gt-comments a,
-.gt-popup a {
-  border-bottom: none;
-}
-.gt-container .gt-popup .gt-action.is--active:before {
-  top: 0.7em;
 }
 .page-archive .archive-page-counter {
   position: relative;
