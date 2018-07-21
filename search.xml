@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hexo Next文章中加上音乐播放器]]></title>
-    <url>%2FMYblog.github.io%2F2018%2F07%2F20%2FHexo-Next%E6%96%87%E7%AB%A0%E4%B8%AD%E5%8A%A0%E4%B8%8A%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8%2F</url>
-    <content type="text"><![CDATA[首先需要了解一下Aplayer下载地址：GitHub Aplayer。下载到本地以后，解压后把dist文件夹复制到themes/next/source文件夹下。 music.js新建一个js，路径为themes/next/source/dist/images/music.js;内容为： const ap = new APlayer({ container: document.getElementById(&apos;aplayer&apos;), fixed: true, autoplay: false, audio: [ { name: &quot;往后余生&quot;, artist: &quot;王贰浪&quot;, url: &quot;http://music.163.com/#/m/song?id=571338279&quot;, cover: &quot;&quot;, } ] 如果还需要其他的参数，请参考：Aplayer中文文档 修改配置 打开themes/next/layout/_layout.swig文件，添加代码 添加到&lt;body&gt;&lt;/body&gt;里面就行了。 重新打包生生成,左下角就会有音乐播放器了。]]></content>
+    <title><![CDATA[Hexo Next中加入图片]]></title>
+    <url>%2FMYblog.github.io%2F2018%2F07%2F21%2FHexo-Next%E4%B8%AD%E5%8A%A0%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
+    <content type="text"><![CDATA[Hexo中放入图片基本分为两种： 本地使用a. 首先在根目录下确认_config.yml中有post_asset_folder: true。b. 在根目录下执行 1$ npm install https://github.com/CodeFalling/hexo-asset-image --save c. 再使用 hexo new ‘new’ 创建新博客的时候，会在source/_posts里面创建.md文件的同时生成一个相同的名字的文件夹。把该文章中需要使用的图片放在该文件夹下即可。 1234`![“图片描述”（可以不写）](/文件夹名/你的图片名字.JPG)`例如：！[ ] (new/text.jpg) 放在七牛云上a. 先去官网注册一下。点这里去官网b. 图片放在七牛云以后就可以直接引用。 1&lt;a href=&quot;这里使用在七牛云上生成的链接&quot;&gt;&lt;/a&gt;]]></content>
       <categories>
         <category>技术文章</category>
       </categories>
       <tags>
+        <tag>Hexo</tag>
+        <tag>Photo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo Next文章中加上音乐播放器]]></title>
+    <url>%2FMYblog.github.io%2F2018%2F07%2F20%2FHexo-Next%E6%96%87%E7%AB%A0%E4%B8%AD%E5%8A%A0%E4%B8%8A%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8%2F</url>
+    <content type="text"><![CDATA[首先需要了解一下Aplayer下载地址：GitHub Aplayer。下载到本地以后，解压后把dist文件夹复制到themes/next/source文件夹下。 music.js新建一个js，路径为themes/next/source/dist/images/music.js;内容为： const ap = new APlayer({ container: document.getElementById(&apos;aplayer&apos;), fixed: true, autoplay: false, audio: [ { name: &quot;往后余生&quot;, artist: &quot;王贰浪&quot;, url: &quot;http://music.163.com/#/m/song?id=571338279&quot;, cover: &quot;&quot;, } ] 如果还需要其他的参数，请参考：Aplayer中文文档 修改配置 打开themes/next/layout/_layout.swig文件，添加代码 添加到&lt;body&gt;&lt;/body&gt;里面就行了。 重新打包生生成,左下角就会有音乐播放器了。 参考链接： 这是一个小姐姐的Blog]]></content>
+      <categories>
+        <category>技术文章</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
         <tag>Aplayer</tag>
       </tags>
   </entry>
