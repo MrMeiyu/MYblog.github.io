@@ -103,7 +103,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://mrmeiyu.github.io/MYblog.github.io/images/palyer1.jpeg">
 <meta property="og:image" content="https://mrmeiyu.github.io/MYblog.github.io/images/palyer2.jpg">
-<meta property="og:updated_time" content="2018-07-21T10:13:50.223Z">
+<meta property="og:updated_time" content="2018-07-23T11:34:45.418Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo Next文章中加上音乐播放器">
 <meta name="twitter:description" content="首先需要了解一下Aplayer下载地址：GitHub Aplayer。下载到本地以后，解压后把dist文件夹复制到themes/next/source文件夹下。">
@@ -428,10 +428,10 @@
       
 
       
-        <h3 id="首先需要了解一下Aplayer"><a href="#首先需要了解一下Aplayer" class="headerlink" title="首先需要了解一下Aplayer"></a>首先需要了解一下<code>Aplayer</code></h3><p>下载地址：<a href="https://github.com/MoePlayer/APlayer">GitHub Aplayer</a>。<br>下载到本地以后，解压后把<code>dist</code>文件夹复制到<code>themes/next/source</code>文件夹下。</p>
+        <h2 id="首先需要了解一下Aplayer"><a href="#首先需要了解一下Aplayer" class="headerlink" title="首先需要了解一下Aplayer"></a>首先需要了解一下<code>Aplayer</code></h2><p>下载地址：<a href="https://github.com/MoePlayer/APlayer">GitHub Aplayer</a>。<br>下载到本地以后，解压后把<code>dist</code>文件夹复制到<code>themes/next/source</code>文件夹下。</p>
 <a id="more"></a>
 <p><img src="https://mrmeiyu.github.io/MYblog.github.io/images/palyer1.jpeg" alt="Image text"></p>
-<h3 id="music-js"><a href="#music-js" class="headerlink" title="music.js"></a>music.js</h3><p>新建一个js，路径为<code>themes/next/source/dist/images/music.js</code>;<br>内容为：</p>
+<h2 id="music-js"><a href="#music-js" class="headerlink" title="music.js"></a>music.js</h2><p>新建一个js，路径为<code>themes/next/source/dist/images/music.js</code>;<br>内容为：</p>
 <pre><code>const ap = new APlayer({
 container: document.getElementById(&apos;aplayer&apos;),
 fixed: true,
@@ -445,7 +445,7 @@ audio: [
   }
 ]
 </code></pre><p>  如果还需要其他的参数，请参考：<a href="https://aplayer.js.org/#/zh-Hans/" target="_blank" rel="noopener">Aplayer中文文档</a></p>
-<h3 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h3><p>  打开<code>themes/next/layout/_layout.swig</code>文件，添加代码</p>
+<h2 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h2><p>  打开<code>themes/next/layout/_layout.swig</code>文件，添加代码</p>
 <p>  <img src="https://mrmeiyu.github.io/MYblog.github.io/images/palyer2.jpg" alt="Image text"></p>
 <p>  添加到<code>&lt;body&gt;&lt;/body&gt;</code>里面就行了。</p>
 <p>重新打包生生成,左下角就会有音乐播放器了。</p>
@@ -673,7 +673,7 @@ audio: [
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#首先需要了解一下Aplayer"><span class="nav-number">1.</span> <span class="nav-text">首先需要了解一下Aplayer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#music-js"><span class="nav-number">2.</span> <span class="nav-text">music.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改配置"><span class="nav-number">3.</span> <span class="nav-text">修改配置</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#首先需要了解一下Aplayer"><span class="nav-number">1.</span> <span class="nav-text">首先需要了解一下Aplayer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#music-js"><span class="nav-number">2.</span> <span class="nav-text">music.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改配置"><span class="nav-number">3.</span> <span class="nav-text">修改配置</span></a></li></ol></div>
             
 
           </div>
