@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Vue-Element中自定义Table组件]]></title>
     <url>%2FMYblog.github.io%2F2018%2F07%2F23%2FVue-Element%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89Table%E7%BB%84%E4%BB%B6%2F</url>
-    <content type="text"><![CDATA[自定义Table组件利用vue中jsx语法再次封装table，达到Tbale的表头也可以自定义。 需要大家有一定的前端编程基础。 对于vue有一定的了解。 详细的代码请转到我的github上点我，点我。 总结： 在写项目的时候如果超过两个相同的地方，尽可能封装组件以达到代码重用的目地。 未完成：这个组件只是再封装了表格一个组件，还可以把分页也加入到。]]></content>
+    <content type="text"><![CDATA[自定义Table组件利用vue中jsx语法再次封装table，达到Tbale的表头也可以自定义。 需要大家有一定的前端编程基础。 对于vue有一定的了解。 详细的代码请转到我的github上点我，点我。 总结： 在写项目的时候如果超过两个相同的地方，尽可能封装组件以达到代码重用的目地。]]></content>
       <categories>
         <category>技术文章</category>
       </categories>
