@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Vue-Elemnt中自定义Table组件]]></title>
+    <url>%2FMYblog.github.io%2F2018%2F07%2F23%2FVue-Elemnt%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89Table%E7%BB%84%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[自定义Table组件利用vue中jsx语法再次封装table，达到Tbale的表头也可以自定义。 需要大家有一定的前端编程基础。 对于vue有一定的了解。 详细的代码请转到我的github上点我，点我。 总结： 在写项目的时候如果超过两个相同的地方，尽可能封装组件以达到代码重用的目地。 未完成：这个组件只是再封装了表格一个组件，还可以把分页也加入到。]]></content>
+      <tags>
+        <tag>vue</tag>
+        <tag>Element</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo Next中加入图片]]></title>
     <url>%2FMYblog.github.io%2F2018%2F07%2F21%2FHexo-Next%E4%B8%AD%E5%8A%A0%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
     <content type="text"><![CDATA[Hexo中放入图片基本分为两种： 本地使用a. 首先在根目录下确认_config.yml中有post_asset_folder: true。b. 在根目录下执行 1$ npm install https://github.com/CodeFalling/hexo-asset-image --save c. 再使用 hexo new ‘new’ 创建新博客的时候，会在source/_posts里面创建.md文件的同时生成一个相同的名字的文件夹。把该文章中需要使用的图片放在该文件夹下即可。 1234`![“图片描述”（可以不写）](/文件夹名/你的图片名字.JPG)`例如：！[ ] (new/text.jpg) 放在七牛云上a. 先去官网注册一下。点这里去官网b. 图片放在七牛云以后就可以直接引用。 1&lt;a href=&quot;这里使用在七牛云上生成的链接&quot;&gt;&lt;/a&gt;]]></content>
@@ -22,17 +31,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>Aplayer</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Vue+Element后台管理系统基本配置]]></title>
-    <url>%2FMYblog.github.io%2F2018%2F07%2F09%2FVue-Element%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>技术文章</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
